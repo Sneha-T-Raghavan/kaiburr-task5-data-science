@@ -33,7 +33,7 @@ First run the Data preprocessing code on the original data, the code will output
 The Model comparison has been done on the pre processed data.
 
 Model Training Code Setup in Google Collab 
-![Code Setup](./screenshots/Setup.png)
+![Code Setup](./Screenshots/Setup.png)
 
 # Model Selection and Training 
 
@@ -49,7 +49,7 @@ Four distinct multi-class classification models were selected, trained, and eval
 The DNN was a two-layer sequential model, including an input layer, a hidden Dense(128, activation='relu') layer, and an output Dense(4, activation='softmax') layer. It was trained for 5 epochs using a memory-efficient SparseDataGenerator to handle the large, sparse TF-IDF input matrix.
 
 Model Training
-![Model Training](./screenshots/model_training.png)
+![Model Training](./Screenshots/model_training.png)
 
 
 # Model Comparison 
@@ -62,10 +62,10 @@ Model Training
 | 93.59%         |Simple Deep Neural Network      | 
 
 Model Evaluation Output
-![Model Evaluation](./screenshots/model_eval.png)
+![Model Evaluation](./Screenshots/model_eval.png)
 
 Model Comparison
-![Comparison](./screenshots/model_compare.png)
+![Comparison](./Screenshots/model_compare.png)
 
 The DNN achieved the highest overall test accuracy and showed strong, balanced performance across the major categories.
 
@@ -81,13 +81,13 @@ The DNN achieved the highest overall test accuracy and showed strong, balanced p
 The confusion matrix confirms high recall for the Credit reporting and Mortgage categories, while the lower support Consumer Loan category is the most challenging for the model to classify, resulting in the lowest F1-score.
 
 Confusion matrix
-![DNN Confusion Matrix](./screenshots/confusion_m_dnn.png)
+![DNN Confusion Matrix](./Screenshots/confusion_m_dnn.png)
 
 
 # Final Sample Predictions 
 
 Prediction Using Best Models
-![Predictions](./screenshots/sample_predictions.png)
+![Predictions](./Screenshots/sample_predictions.png)
 
 
 The top two models LinearSVC and the DNN were used to predict for sample data. 
